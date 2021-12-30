@@ -38,7 +38,7 @@ async def save_group(bot, message):
             return
         buttons = [[
             InlineKeyboardButton('help', url=f"https://t.me/{temp.U_NAME}?start=help"),
-            InlineKeyboardButton('updates', url='https:/t.me/JosProjects')
+            InlineKeyboardButton('updates', url='https://t.me/PM_Bots')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -47,10 +47,10 @@ async def save_group(bot, message):
     else:
         for u in message.new_chat_members:
             zaute = [[
-            InlineKeyboardButton('Movies OTT', url='https://t.me/joinchat/XwtyyrY9RH41YmE1'),
-            InlineKeyboardButton('👉Press Me🥰', url='https://t.me/joinchat/XwtyyrY9RH41YmE1')
+            InlineKeyboardButton('OTT Movies', url='https://t.me/Pulikesi_Meme'),
+            InlineKeyboardButton('👉Bots List🥰', url='https://t.me/PM_Bots/4')
             ],[
-            InlineKeyboardButton('Mod Apk', url='https://t.me/cs_cloud'),
+            InlineKeyboardButton('Bot updates', url='https://t.me/PM_Bots'),
             InlineKeyboardButton('search here movie', switch_inline_query_current_chat='')
         ]]
             if (temp.MELCOW).get('welcome') is not None:
@@ -59,7 +59,7 @@ async def save_group(bot, message):
                 except:
                     pass
             temp.MELCOW['welcome'] = await message.reply_text(
-            text=f"<b>👋 Hi! {u.mention},</b>🥳 Welcome To Our Group 🤩 <b>{message.chat.title}</b>\n\n<b>👇Join Movies OTT Channels 👇</b>",
+            text=f"<b>👋 Hi! {u.mention},</b>🥳 Welcome To Our Group 🤩 <b>{message.chat.title}</b>\n\n<b>👇Join OTT Movies Channels 👇</b>",
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup(zaute))
 
