@@ -7,7 +7,7 @@ My name is <a href=https://t.me/{}>{}</a>!
 
 Just Add me to Your Group As Admin, Hit The Help Button For More Info..
 
-✨ 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 :  <a href='https://t.me/iAmLiKu1'>ℭ𝐒 ‣ ᏂᎧᏇᏝ</a> </b>"""
+✨ 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 :  <a href='https://t.me/PM_Bots'>𝗣𝗠 𝗕𝗼𝘁𝘀</a> </b>"""
 
 
     HELP_TXT = """Hey {}
@@ -15,20 +15,20 @@ Just Add me to Your Group As Admin, Hit The Help Button For More Info..
 <b>Here Is The Help For My Commands.</b>"""
 
     ABOUT_TXT = """<b>🥱 My Name : see my name on the top
-🕵‍♂ Developer : <a href='https://t.me/iAmLiKu1'>𓆩♡⃤°•°ℭ𝐒 ‣ ᏂᎧᏇᏝ✮͢🦋⃟≛⃝</a>
+🕵‍♂ Developer : <a href='https://t.me/vadivel_da'>𝘃𝗮𝗱𝗶𝘃𝗲𝗹 𝗱𝗮</a>
 📚 Library : 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 🖥 Language : 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 🎪 Data Base : 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-🔋 Updates : @cs_cloud </b>"""
+🔋 Updates : @PM_Bots </b>"""
     SOURCE_TXT = """<b>Source:</b>
 Contact my developer
-<b>🕵‍♂ Developer : <a href='https://t.me/iAmLiKu1'>𓆩♡⃤°•°ℭ𝐒 ‣ ᏂᎧᏇᏝ✮͢🦋⃟≛⃝<</a> </b>
+<b>🕵‍♂ Developer : <a href='https://t.me/vadivel_da'>𝘃𝗮𝗱𝗶𝘃𝗲𝗹 𝗱𝗮</a> </b>
 
 <b>DEVS:</b>
-- <a href='https://t.me/iAmLiKu1'>ℭ𝐒 ‣ ᏂᎧᏇᏝ</a>
+- <a href='https://t.me/Pulikei_Meme'>𝗣𝗠</a>
 
 <b>Movies GROUP</b>
-- <a href='https://t.me/+oMiWi94WoAQ0MmY5'>Movies Club</a>"""
+- <a href='https://t.me/PMRequestgroup'>Movies Club</a>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
@@ -55,7 +55,7 @@ Contact my developer
 3. Buttons should be properly parsed as markdown format.
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/josprojects)</code>
+<code>[Button Text](buttonurl:https://t.me/PM_Bots)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -251,7 +251,7 @@ Some URLs is Shortner
 • /short <code>(link)</code> - I will send the shorted links.
 
 <b>Example:</b>
-<code>/short https://t.me/josprojects</code>
+<code>/short https://t.me/PM_Bots</code>
 
 <b>NOTE:</b>
 • IMDb should have admin privillage.
