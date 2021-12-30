@@ -162,7 +162,7 @@ async def imdb_callback(bot: Client, query: CallbackQuery):
             [
                 InlineKeyboardButton(
                     text=f"movies ott",
-                    url="https://t.me/+oMiWi94WoAQ0MmY5"
+                    url="https://t.me/Pulikesi_Meme"
                 )
             ],
         ]
