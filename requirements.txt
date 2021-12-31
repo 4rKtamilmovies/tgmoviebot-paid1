@@ -23,4 +23,4 @@ python-arq
 ffmpeg-python
 requests
 ytthumb
-pyrogram
+git+https://github.com/subinps/pyrogram@inline-m
