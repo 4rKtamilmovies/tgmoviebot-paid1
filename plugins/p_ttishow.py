@@ -47,8 +47,8 @@ async def save_group(bot, message):
     else:
         for u in message.new_chat_members:
             zaute = [[
-            InlineKeyboardButton('OTT Movies', url='https://t.me/Pulikesi_Meme'),
-            InlineKeyboardButton('👉Bots List🥰', url='https://t.me/PM_Bots/4')
+            InlineKeyboardButton('New Movies', url='https://t.me/Pulikesi_Meme'),
+            InlineKeyboardButton('Devaloper🥰', url='https://t.me/vadivel_da')
             ],[
             InlineKeyboardButton('Bot updates', url='https://t.me/PM_Bots'),
             InlineKeyboardButton('search here movie', switch_inline_query_current_chat='')
@@ -59,7 +59,7 @@ async def save_group(bot, message):
                 except:
                     pass
             temp.MELCOW['welcome'] = await message.reply_text(
-            text=f"<b>👋 Hi! {u.mention},</b>🥳 Welcome To Our Group 🤩 <b>{message.chat.title}</b>\n\n<b>👇Join OTT Movies Channels 👇</b>",
+            text=f"<b>👋 Hi! {u.mention},</b>🥳 Welcome To <b>{message.chat.title}</b>\n\n<b>🎞Request Your Favorite Movies In This Format🎬\n\nRequestFormat👇👇👇\n#Movie_Name \n\nExample : Master\n\n⚠️With Correct Spelling, Correct Spelling Available In Google🔍</b>",
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup(zaute))
 
