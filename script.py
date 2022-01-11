@@ -7,6 +7,15 @@ My name is <a href=https://t.me/{}>{}</a>!
 
 Just Add me to Your Group As Admin, Hit The Help Button For More Info..
 
+🎞Request Your Favorite Movies In The Format🎬
+
+RequestFormat👇👇👇
+#Movie_Name 
+
+Example : Master
+
+⚠️With Correct Spelling, Correct Spelling Available In Google🔍
+
 ✨ 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 :  <a href='https://t.me/PM_Bots'>𝗣𝗠 𝗕𝗼𝘁𝘀</a> </b>"""
 
 
@@ -25,7 +34,7 @@ Contact my developer
 <b>🕵‍♂ Developer : <a href='https://t.me/vadivel_da'>𝘃𝗮𝗱𝗶𝘃𝗲𝗹 𝗱𝗮</a> </b>
 
 <b>DEVS:</b>
-- <a href='https://t.me/Pulikei_Meme'>𝗣𝗠</a>
+- <a href='https://t.me/Pulikesi_Meme'>𝗣𝗠</a>
 
 <b>Movies GROUP</b>
 - <a href='https://t.me/PMRequestgroup'>Movies Club</a>"""
