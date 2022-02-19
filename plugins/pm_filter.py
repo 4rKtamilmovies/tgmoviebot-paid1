@@ -372,7 +372,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
         if not files_:
-            return await query.answer(f'Hey, {query.from_user.first_name}! No such file exist. Send Request Again')
+            return await query.answer(f'Hey, {query.from_user.first_name}! Send Movie Name Only🙂')
         files = files_[0]
         title = files.file_name
         size=get_size(files.file_size)
@@ -401,7 +401,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     )
                 await query.answer(f'Hey {query.from_user.first_name} Check PM, I have sent files in pm',show_alert = True)
         except UserIsBlocked:
-            await query.answer(f'Hey {query.from_user.first_name} Unblock the bot mahn !',show_alert = True)
+            await query.answer(f'Hey {query.from_user.first_name} Unblock the bot.',show_alert = True)
         except PeerIdInvalid:
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={file_id}")
         except Exception as e:
@@ -414,7 +414,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
         if not files_:
-            return await query.answer(f'Hello, {query.from_user.first_name}! No such file exist. Send Request Again')
+            return await query.answer(f'Hello, {query.from_user.first_name}! Send Movie Name Only🙂')
         files = files_[0]
         title = files.file_name
         size=get_size(files.file_size)
@@ -445,10 +445,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('search here movie', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('OTT Movies', url='https://t.me/Pulikesi_Meme'),
+            InlineKeyboardButton('New Movies', url='https://t.me/Pulikesi_Meme'),
             InlineKeyboardButton('Movie Request Group', url='https://t.me/PMRequestgroup')
             ],[
-            InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
+            InlineKeyboardButton('✗ Close ✗', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -891,12 +891,12 @@ async def auto_filter(client, msg, spoll=False):
             await message.delete()
         except Exception as e:
             logger.exception(e)
-            fek = await message.reply_photo(photo="https://telegra.ph/file/82b5bbbab6d5e5593b6b2.jpg", caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+            fek = await message.reply_photo(photo=" https://telegra.ph/file/3408d5614be1f598a2269.jpg", caption=cap, reply_markup=InlineKeyboardMarkup(btn))
             await asyncio.sleep(300)
             await fek.delete()
             await msg.delete()
     else:
-        fuk = await message.reply_photo(photo="https://telegra.ph/file/8b42f6caf6ef5fd76766f.jpg", caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+        fuk = await message.reply_photo(photo=" https://telegra.ph/file/3408d5614be1f598a2269.jpg", caption=cap, reply_markup=InlineKeyboardMarkup(btn))
         await asyncio.sleep(300)
         await fuk.delete()
         await msg.delete()
@@ -913,7 +913,7 @@ async def advantage_spell_chok(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        k = await msg.reply(f"Hey, {msg.from_user.mention}! I couldn't find any movie in that name.")
+        k = await msg.reply(f"Hey, {msg.from_user.mention}! Send Movie Name Only🙂")
         await asyncio.sleep(8)
         await k.delete()
         return
