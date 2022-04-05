@@ -1,5 +1,5 @@
 echo "Cloning Repo, Please Wait..."
-git clone -b master https://github.com/pulikesimeme/tgmoviebot
+git clone -b master https://github.com/pulikesimeme/tgmoviebot.git /tgmoviebot
 cd /tgmoviebot
 echo "Installing Requirements..."
 pip3 install -U -r requirements.txt
