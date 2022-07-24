@@ -445,8 +445,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('search here movie', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('New Movies', url='https://t.me/Pulikesi_Meme'),
-            InlineKeyboardButton('Movie Request Group', url='https://t.me/PMRequestgroup')
+            InlineKeyboardButton('New Movies', url='https://t.me/Hdnewtamilmoviess4K'),
+            InlineKeyboardButton('Request Group', url='https://t.me/Hdnewtamilmovies4rkk')
             ],[
             InlineKeyboardButton('✗ Close ✗', callback_data='close_data')
         ]]
@@ -875,7 +875,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>🎬 Title:</b> {search}\n\n<b>👥 Requested by: {message.from_user.mention}</b>\n<b>© Powered by: <a href='https://t.me/Pulikesi_Meme'>{message.chat.title}</a></b>\n\n<b>✍️ Note:</b> <s>This message will be Auto-deleted after 5 minutes to avoid copyright issues.</s>"
+        cap = f"<b>🎬 Title:</b> {search}\n\n<b>👥 Requested by: {message.from_user.mention}</b>\n<b>© Powered by: <a href='https://t.me/Hdnewtamilmoviess4K'>{message.chat.title}</a></b>\n\n<b>✍️ Note:</b> <s>This message will be Auto-deleted after 5 minutes to avoid copyright issues.</s>"
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
@@ -891,12 +891,12 @@ async def auto_filter(client, msg, spoll=False):
             await message.delete()
         except Exception as e:
             logger.exception(e)
-            fek = await message.reply_photo(photo=" https://telegra.ph/file/3408d5614be1f598a2269.jpg", caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+            fek = await message.reply_photo(photo=" https://telegra.ph/file/f790571097a2ad281a96c.jpg", caption=cap, reply_markup=InlineKeyboardMarkup(btn))
             await asyncio.sleep(300)
             await fek.delete()
             await msg.delete()
     else:
-        fuk = await message.reply_photo(photo=" https://telegra.ph/file/3408d5614be1f598a2269.jpg", caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+        fuk = await message.reply_photo(photo=" https://telegra.ph/file/f790571097a2ad281a96c.jpg", caption=cap, reply_markup=InlineKeyboardMarkup(btn))
         await asyncio.sleep(300)
         await fuk.delete()
         await msg.delete()
