@@ -18,7 +18,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('OTT Movies', url='https://t.me/Pulikesi_Meme')
+                InlineKeyboardButton('OTT Movies', url='https://t.me/Hdnewtamilmoviess4K')
             ],
             [
                 InlineKeyboardButton('help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -45,8 +45,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('search here movie', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('OTT Movies', url='https://t.me/Pulikesi_Meme'),
-            InlineKeyboardButton('Movie Request Group', url='https://t.me/PMRequestgroup')
+            InlineKeyboardButton('OTT Movies', url='https://t.me/Hdnewtamilmoviess4K'),
+            InlineKeyboardButton('Movie Request Group', url='https://t.me/Hdnewtamilmovies4rkk')
             ],[
             InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
         ]]
@@ -92,8 +92,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('search here movie', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('OTT Movies', url='https://t.me/Pulikesi_Meme'),
-            InlineKeyboardButton('Movie Request Group', url='https://t.me/PMRequestgroup')
+            InlineKeyboardButton('OTT Movies', url='https://t.me/Hdnewtamilmoviess4K'),
+            InlineKeyboardButton('Movie Request Group', url='https://t.me/Hdnewtamilmovies4rkk')
             ],[
             InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
         ]]
